@@ -5,6 +5,7 @@
 #include <netinet/in.h> 
 #include <sys/types.h>  
 #include <sys/socket.h> 
+#include <asm-generic/socket.h>
 
 #define PORT 8080
 
