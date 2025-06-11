@@ -6,7 +6,7 @@
 
 #define PORT 8090
 
-void main() {
+int main() {
     int serv_sock_fd;
     char message[1024], buffer[1024];
     struct sockaddr_in servaddr, cliaddr;
@@ -36,4 +36,5 @@ void main() {
         if (strcmp(message, "exit") == 0)
             break;
     }
+    return 0;
 }
