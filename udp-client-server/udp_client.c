@@ -2,8 +2,8 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
-#include <string.h> // <arpa/inet.h> is usually needed for inet_addr but often included by netinet/in.h
-
+#include <string.h> 
+#include <arpa/inet.h> 
 #define PORT 8090
 
 int main() {
